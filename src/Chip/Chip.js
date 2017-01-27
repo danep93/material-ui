@@ -268,7 +268,6 @@ class Chip extends Component {
 
         avatar = React.cloneElement(avatar, {
           style: Object.assign(styles.avatar, avatar.props.style),
-          size: 32,
         });
       }
     }
